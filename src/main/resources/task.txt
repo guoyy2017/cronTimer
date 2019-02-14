@@ -1,0 +1,4 @@
+{"name":"testDemo", "state": "U", "type":"single", "multi": false, "job":"demo.TestJob", "params":{}, "taskId":0}
+{"name":"testDemo1", "state": "U", "type":"cycle", "unit":"s", "delay":5, "gap":20, "multi": false, "job":"demo.TestJob", "params":{}, "taskId":0}
+{"name":"testDemo2", "state": "U", "type":"fix_time", "time":"2019-01-01 10:20:30", ""multi": false, "job":"demo.TestJob", "params":{}, "taskId":0}
+{"name":"testDemo3", "state": "U", "type":"cron", "cron":"* * * * * *", "multi": false, "job":"demo.TestJob", "params":{}, "taskId":0}
